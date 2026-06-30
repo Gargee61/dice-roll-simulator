@@ -1,6 +1,6 @@
 # 🎲 Dice Roll Simulator
 
-A simple and interactive **Dice Roll Simulator** built using **Python**. This project simulates rolling a six-sided dice and generates a random number between **1 and 6** each time the user rolls the dice. It is a beginner-friendly project that demonstrates the use of Python's `random` module, loops, and user interaction.
+A simple and interactive **Dice Roll Simulator** built using **HTML, CSS, and JavaScript**. This project simulates rolling a six-sided dice and generates a random number between **1 and 6** each time the user rolls the dice. It is a beginner-friendly project that demonstrates the use of loops, and user interaction.
 
 ---
 
@@ -18,7 +18,16 @@ A simple and interactive **Dice Roll Simulator** built using **Python**. This pr
 
 * HTML
 * CSS
-* JavaScript
+* JavaScript (ES6)
+
+---
+
+📂 Project Structure
+dice-roll-simulator/
+│── index.html
+│── style.css
+│── script.js
+│── README.md
 
 ---
 
@@ -26,28 +35,15 @@ A simple and interactive **Dice Roll Simulator** built using **Python**. This pr
 
 ### Prerequisites
 
-* Python 3.x installed on your system.
+* Simply open index.html in your preferred web browser.
+
+Or, if you're using VS Code, install the Live Server extension and click Go Live.
 
 ### Clone the Repository
 
 ```bash
 git clone https://github.com/Gargee61/dice-roll-simulator.git
 ```
-
-Navigate to the project folder:
-
-```bash
-cd dice-roll-simulator
-```
-
-Run the program:
-
-```bash
-python dice_roll.py
-```
-
-> Replace `dice_roll.py` with your actual Python file name if it is different.
-
 ---
 
 ## 📸 Sample Output
@@ -66,7 +62,6 @@ Do you want to roll again? (yes/no)
 
 This project helps beginners understand:
 
-* Python basics
 * Random number generation
 * Functions
 * Loops
